@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestDatabaseModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TestDatabaseEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="UserDetails" EntityType="TestDatabaseModel.UserDetail" />
+    <EntitySet Name="Users" EntityType="TestDatabaseModel.User" />
+    <AssociationSet Name="FK_UserDetails_Users" Association="TestDatabaseModel.FK_UserDetails_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserDetails" EntitySet="UserDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="UserDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="Amount" Type="Int32" />
+    <Property Name="DateOf" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="User" Relationship="TestDatabaseModel.FK_UserDetails_Users" FromRole="UserDetails" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Firstname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Lastname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Username" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Password" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Active" Type="Byte" />
+    <Property Name="Country" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="UserDetails" Relationship="TestDatabaseModel.FK_UserDetails_Users" FromRole="Users" ToRole="UserDetails" />
+  </EntityType>
+  <Association Name="FK_UserDetails_Users">
+    <End Role="Users" Type="TestDatabaseModel.User" Multiplicity="0..1" />
+    <End Role="UserDetails" Type="TestDatabaseModel.UserDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="UserDetails">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,13 @@
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\bin\ASPNET-Sample.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\bin\ASPNET-Sample.pdb
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\bin\Antlr3.Runtime.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\bin\EntityFramework.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\bin\System.Web.Optimization.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\bin\System.Web.Providers.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\bin\WebGrease.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\bin\EntityFramework.xml
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\obj\Debug\ASPNET-Sample.csprojResolveAssemblyReference.cache
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\obj\Debug\ASPNET-Sample.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\obj\Debug\ASPNET-Sample.pdb
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\bin\ASPNET.Data.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET-Sample\bin\ASPNET.Data.pdb

@@ -1,0 +1,7 @@
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET.Data\bin\Debug\ASPNET.Data.dll.config
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET.Data\bin\Debug\ASPNET.Data.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET.Data\bin\Debug\ASPNET.Data.pdb
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET.Data\bin\Debug\EntityFramework.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET.Data\bin\Debug\EntityFramework.xml
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET.Data\obj\Debug\ASPNET.Data.dll
+D:\Gaurav\Projects\Development&Research\Architecture\ASPNET\ASPNET-Sample\ASPNET.Data\obj\Debug\ASPNET.Data.pdb
